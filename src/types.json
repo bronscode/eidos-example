@@ -1,0 +1,20 @@
+{
+	"Eidos": {
+		"tasks": "List<Task>",
+		"persons": "List<Person>"
+	},
+	"Task": {
+		"title": "string",
+		"description": "string",
+		"difficulty": "string",
+		"assignees": "List<Ref<Person>>",
+		"___kind": "string",
+		"id": "integer"
+	},
+	"Person": {
+		"name": "string",
+		"age": "integer",
+		"___kind": "string",
+		"id": "integer"
+	}
+}
