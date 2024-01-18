@@ -12,7 +12,6 @@ const store = createStore(mainReducer, applyMiddleware(thunk));
 // We connect Eidos and Redux
 applyEidosToRedux(store, mainReducer);
 
-
 export default function GlobalProvider() {
   return (
     // As usual we wrap our component tree in the Redux provider

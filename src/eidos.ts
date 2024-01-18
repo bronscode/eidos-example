@@ -3,17 +3,17 @@ import { BaseObject, List, Ref, integer, text } from "@bronscode/eidos/dist/eido
 declare global {
 	interface Eidos {
 		tasks: List<Task>;
-		persons: List<Person>;
+		users: List<User>;
 	}
 
 	interface Task extends BaseObject {
 		title: string;
 		description: text;
 		difficulty: "easy" | "hard";
-		assignees?: List<Ref<Person>>;
+		assignees?: List<Ref<User>>;
 	}
 
-	interface Person extends BaseObject {
+	interface User extends BaseObject {
 		name: string;
 		age: integer;
 	}
