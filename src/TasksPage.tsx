@@ -1,8 +1,8 @@
-import { EditableTable, Page, endpoints, useAwait, useSave } from "@bronscode/eidos";
+import { EditableTable, Page, endpoints, useAwait, useResource } from "@bronscode/eidos";
 import { TaskField } from "./fields";
 
 export default function TasksPage() {
-  const [tasks, controller] = useSave(endpoints.tasks);
+  const [tasks, controller] = useResource(endpoints.tasks);
   useAwait(tasks);
 
   return <Page title="Tasks">
