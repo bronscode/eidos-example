@@ -7,7 +7,7 @@ declare global {
 	}
 
 	interface Task extends BaseObject {
-		title: string;
+		name: string;
 		description: text;
 		difficulty: "easy" | "hard";
 		assignees?: List<Ref<User>>;

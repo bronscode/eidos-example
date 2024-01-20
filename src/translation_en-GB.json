@@ -1,1 +1,11 @@
-{}
+{
+  "Task": {
+    "name": "Title",
+    "description": "Description",
+    "difficulty": "Difficulty"
+  },
+  "User": {
+    "name": "Name",
+    "age": "Age"
+  }
+}

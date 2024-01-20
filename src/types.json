@@ -4,7 +4,7 @@
 		"users": "List<User>"
 	},
 	"Task": {
-		"title": "string",
+		"name": "string",
 		"description": "string",
 		"difficulty": "string",
 		"assignees": "List<Ref<User>>",

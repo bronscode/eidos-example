@@ -1,0 +1,5 @@
+.TaskField .name,
+.TaskField .description,
+.TaskField .difficulty {
+  flex: 1;
+}

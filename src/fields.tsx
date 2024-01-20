@@ -23,10 +23,10 @@ export const TaskField : FieldComponent<Fill<Task, 0>> = ({ value, onChange, edi
 		<div className={`Field TaskField ${className ?? ""} ${name ?? ""}`}>
 			<label>{label ?? translate("Task.@label")}</label>
 			<StringField
-				label={translate("Task.title")}
-				name="title"
-				value={value?.["title"]}
-				onChange={(title) => onChange!({ title })}
+				label={translate("Task.name")}
+				name="name"
+				value={value?.["name"]}
+				onChange={(name) => onChange!({ name })}
 				editable={editable}
 			/>
 			<TextField
@@ -49,7 +49,7 @@ export const TaskField : FieldComponent<Fill<Task, 0>> = ({ value, onChange, edi
 	);
 }
 TaskField.type = "Task";
-TaskField.properties = ["title","description","difficulty"];
+TaskField.properties = ["name","description","difficulty"];
 
 export const UserField : FieldComponent<Fill<User, 0>> = ({ value, onChange, editable, label, name, className }) => {
 	return (

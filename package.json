@@ -10,11 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@bronscode/eidos": "^1.4.0-webbio.3",
+    "@bronscode/eidos": "^1.4.0-beta.35",
+    "express": "^4.18.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^8.1.1",
-    "redux": "^5.0.1",
+    "redux": "^4.0.1",
     "redux-thunk": "^2.4.2"
   },
   "devDependencies": {

@@ -1,0 +1,4 @@
+.UserField .name,
+.UserField .age {
+  flex: 1;
+}

@@ -1,0 +1,28 @@
+{
+  "tasks": {
+    "1": {
+      "name": "Doing the dishes",
+      "description": "",
+      "difficulty": "hard",
+      "id": 1
+    },
+    "2": {
+      "name": "Learn Eidos",
+      "description": "Finish the guide and implement Eidos in your own projects",
+      "difficulty": "easy",
+      "id": 2
+    }
+  },
+  "users": {
+    "1": {
+      "name": "Steven",
+      "age": 24,
+      "id": 1
+    },
+    "2": {
+      "name": "Wouter",
+      "age": 23,
+      "id": 2
+    }
+  }
+}

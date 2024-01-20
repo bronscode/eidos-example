@@ -1,5 +1,6 @@
 import { EditableTable, Page, endpoints, useAwait, useResource } from "@bronscode/eidos";
 import { UserField } from "./fields";
+import "./UsersPage.css";
 
 export default function UsersPage() {
   const [users, controller] = useResource(endpoints.users);

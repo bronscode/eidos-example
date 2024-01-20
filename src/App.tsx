@@ -1,11 +1,12 @@
 import { useState } from "react";
-import "./App.css";
 import { HUD, MenuItem } from "@bronscode/eidos";
 import AssignmentIcon from "@mui/icons-material/Assignment";
 import GroupIcon from "@mui/icons-material/Group";
-import "@bronscode/eidos/dist/index.css";
 import TasksPage from "./TasksPage";
 import UsersPage from "./UsersPage";
+
+import "@bronscode/eidos/dist/index.css";
+
 
 const menu: MenuItem[] = [
   {
